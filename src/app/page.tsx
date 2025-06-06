@@ -12,6 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <p>La mejor red social de libros de todo Internet</p>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
@@ -22,6 +23,9 @@ export default function Home() {
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
+          </li>
+          <li>
+            Gana millones de leuros
           </li>
         </ol>
 
@@ -49,6 +53,15 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div>
+          <a
+            className = "rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-24 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
+            href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            >
+              Conoce nuestro secreto
+            </a>
+          <img src = "https://i.redd.it/qnuy0nbhrrvd1.jpeg" alt = "Kid JD Vance" width = "300" height = "300"/>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
